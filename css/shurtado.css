@@ -1,0 +1,33 @@
+/*!
+ * shurtado.css 
+ * Author - Stephanie Hurtado
+ * Copyright 2016
+ */
+
+body {
+    margin-top: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: transparent;
+}
+
+.full {
+    background: url('../img/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*links to CV items*/
+.social-links {
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.social-links .col-md-2{
+    text-align: center;
+}
+
+.social-links .description{
+    text-align: center;
+}
