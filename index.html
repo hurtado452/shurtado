@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
-<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+<html lang="en">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Stephanie Hurtado's personal website">
+    <meta name="description" content="Portfolio for UX Designer Stephanie Hurtado">
     <meta name="author" content="Stephanie Hurtado">
-    <meta name="keywords" content="Stephanie Hurtado, stephanie hurtado, UX researcher, UX Researcher, UX designer, UX Designer, Toronto, Canada, UX, Stephanie Hurtado Carleton University, Ottawa">
+    <meta name="keywords" content="UX portfolio, Toronto, Canada, Stephanie Hurtado, Developer, UX Researcher, UX research, UX Designer, UX design, design"></meta>
+    <!-- for Google -->
+    <meta name="description" content="Portfolio for UX Designer Stephanie Hurtado" />
+    <meta name="keywords" content="UX designer, UX researcher, UI/UX, developer, HTML, CSS, UX" />
+    <meta name="author" content="Stephanie Hurtado" />
+    <meta name="copyright" content="2016" />
+    <title>Stephanie Hurtado: UX Designer|Researcher|Developer</title>
 
-    <title>Stephanie Hurtado</title>
-
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/shurtado.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,82 +37,316 @@
 
 </head>
 
-<body>
+<body id="page-top" class="index">
+    <!-- Preloader-->
+    <!--Preloader here-->
 
-    <!-- Navigation-->
-    <!--logo-->
-    <section id="logo">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="row text-center">
-                <img class=" steph_logo img-responsive center-block" src="img/logo.png" alt="Stephanie Hurtado" />
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Stephanie Hurtado</a>
             </div>
-        </div>
-    </section>
 
-    <!--./logo-->
-    <!--main page-->
-    <section id="social-links">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
         <div class="container">
-            <div class="row text-center" style="text-align: center;">
-                <div class="row">
-                    <div class="col-md-2 col-sm-2">
-                        <span class="fa-stack fa-5x">
-                           <!-- <i class="fa fa-circle fa-stack-2x"></i>-->
-                        </span>
-                    </div>
-                    <div class="item col-md-2 col-sm-2">
-                        <span class="fa-stack fa-5x">
-                            <h2 class="description">
-                             Portfolio   
-                            </h2>
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <a href="https://drive.google.com/file/d/0B0RuXUCEjiiVY05SUjR1Wk5wR0E/view?usp=sharing" target="_blank"><i class="fa fa-briefcase fa-inverse fa-stack-1x"></i></a>
-                        </span>
-                    </div>
-                    <div class="item col-md-2 col-sm-2">
-                        <span class="fa-stack fa-5x">
-                            <h2 class="description">
-                             Resume
-                            </h2>
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <a href="https://drive.google.com/file/d/0B0RuXUCEjiiVR2NZOEtBTWJUQXM/view?usp=sharing" target="_blank"><i class="fa fa-file-text fa-inverse fa-stack-1x"></i></a>
-                        </span>
-                    </div>
-                    <div class="item col-md-2 col-sm-2">
-                        <span class="fa-stack fa-5x">
-                            <h2 class="description">
-                             Linkedin  
-                            </h2>
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <a href="https://www.linkedin.com/in/stephanie-hurtado-55035647" target="_blank"><i class="fa fa-linkedin fa-inverse fa-stack-1x"></i></a>
-                        </span>
-                    </div>
-                    <div class="item col-md-2 col-sm-2">
-                        <span class="fa-stack fa-5x">
-                            <h2 class="description">
-                             GitHub 
-                            </h2>
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <a href="https://github.com/hurtado452" target="_blank"><i class="fa fa-github fa-inverse fa-stack-1x"></i></a>
-                        </span>
-                    </div>
-                    <div class="col-md-2 col-sm-2">
-                        <span class="fa-stack fa-5x">
-                            <!--<i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>-->
-                        </span>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/me.png" alt="">
+                    <div class="intro-text">
+                        <span class="skills">I am a <span data-words="UX Designer| UX Researcher| Software Developer"></span></span>
                     </div>
                 </div>
             </div>
         </div>
-        
+    </header>
+
+       <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="line-secondary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I am an aspiring UX designer with a background in Computer Science and Human Computer Interaction. 
+                    <br><br>My passion for human behaviour and design is a driving factor in my research on <i>mobile privacy</i> and <i>saftey in automotive user interfaces</i>.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>I am currently a freelance front-end web developer practising user centered design to develop responsive web pages for businesses.
+
+                    <br>To know more about my previous experiences download my resume below.
+
+                    <br> <br>Currently seeking positions for Fall 2016.
+                    </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="docs/CV_stephanie hurtado_2016.pdf" target="_blank" class="btn btn-lg btn-about">
+                        <i class="fa fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--./main page-->
-    <!--JQuery-->
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="line-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-plus-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/chat.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-plus-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/survey.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-plus-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/thesis_cover.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="line-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                <p>I am always looking for new challenges. Want to collaborate? Feel free to contact me. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-md-offset-2 ">
+                    <ul class="list-unstyled">
+                        <li><h4><i class="fa fa-envelope fa-fw mail fa-2x"></i>shurtado452@gmail.com</h4></li>
+                        <li><h4><i class="fa fa-map-marker fa-fw fa-2x"></i>Toronto, Canada</h4></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-md-2">
+                    <ul class="list-unstyled">
+                      <li><h4><a href="https://www.behance.net/shurtado" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-behance"></i></a>  Behance</h4></li>
+                      <!--<li><h4><a href="https://dribbble.com/shurtado" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-dribbble"></i></a>  Dribbble</h4></li>-->
+                      <li><h4><a href="https://twitter.com/steph_hurtado" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter "></i></a>  Twitter</h4></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <ul class="list-unstyled">
+                          <li><h4><a href="https://github.com/hurtado452" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-github "></i></a>  Github</h4></li>
+                          <li><h4><a href="https://ca.linkedin.com/in/stephanie-hurtado-55035647" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin "></i></a>  LinkedIn</h4></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        &copy; 2016 Stephanie Hurtado. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ChatSecure</h2>
+                            <hr class="line-primary">
+                            <p> <a href="http://chorus.scs.carleton.ca/wp/">Carleton's Human Oriented Research in Usable Security Group</a> examines the usability of ChatSecure, an open-source mobile application that uses two-way authentication to ensure privacy. The following is an overview of this work.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>April 2014
+                                    </strong>
+                                </li>
+                                <li>Topic:
+                                    <strong>Mobile Security
+                                    </strong>
+                                </li>
+                                <li>Publication: 
+                                    <strong>Stephanie Hurtado, Ahsan Imran, and Sonia Chiasson. A usability study of ChatSecure. CRA-W Graduate Cohort Workshop, 2014. 
+                                    </strong>
+                                </li>
+
+                            </ul>
+                            <img src="img/portfolio/chatSecure.png" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>User Perception of Privacy Apps</h2>
+                            <hr class="line-primary">
+                            
+                            <p>This survey was conducted as part of a larger study exploring user perception of privacy apps and the usability of privacy apps. Conducted by <a href="http://chorus.scs.carleton.ca/wp/">Carleton's Human Oriented Research in Usable Security Group.</a> 
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>December 2015
+                                    </strong>
+                                </li>
+                                <li>Topic:
+                                    <strong>Mobile Usability and Privacy
+                                    </strong>
+                                </li>
+                                <li>Publication:
+                                    <strong>Hala Assal, Stephanie Hurtado, Ahsan Imran, and Sonia Chiasson. What’s the deal with privacy apps? A comprehensive exploration of user perception and usability. In <i>Mobile and Ubiquitous Multimedia (MUM)</i>. ACM, 2015. 
+                                    </strong>
+                                </li>
+                            </ul>
+                            <img src="img/portfolio/privacyApps.png" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Driver Distraction & Unfamiliar Road Signs</h2>
+                            <hr class="line-primary">
+                            
+                            <p>This report is a summary of research conducted as part of my Master's thesis in which I explore drivers' behaviour when they encounter road signs from different countries. My motivation is to improve driver safety and minimize distraction through the improvement of in-vehicle systems.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>September 2015
+                                    </strong>
+                                </li>
+                                <li>Topic:
+                                    <strong>Safety in Automotive User Interfaces
+                                    </strong>
+                                </li>
+                                <li>Publication:
+                                    <strong> Stephanie Hurtado. An eye-tracking evaluation of driver distraction and road signs. Master’s thesis, School of Computer Science, Carleton University, 2015.
+                                    </strong>
+                                </li>
+                            </ul>
+                            <img src="img/portfolio/thesis.png" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/shurtado.js"></script>
+    <script src="js/word_animate.js"></script>
 </body>
 
 </html>
+
